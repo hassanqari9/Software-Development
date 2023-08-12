@@ -1,0 +1,271 @@
+/* nav-bar section */
+nav li{
+    display: inline;
+    padding-left: 50px;
+
+}
+nav li:hover{
+    color: #0E8388;
+}
+
+nav button{
+    display: none;  
+    border: 0;
+    font-size: 45px;
+}
+
+.Dis {
+    display: none;
+   }
+
+
+@media screen and (max-width: 1000px){
+   
+    .first{
+        display: flex;
+
+    }  
+    .seconddiv{
+        display: none;
+    }
+    nav button{
+    display: block;  
+    border: 0;
+    font-size: 30px;
+    background-color: transparent;
+    
+}
+   nav li{
+    display: block;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+   nav h1{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   #navnav{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+   }
+}
+
+/* section one */
+#one{
+    background-color: #0E8388;
+    
+}
+
+#one p{
+    font-size: 20px;
+}
+
+@media screen and (max-width:1000px){
+    #divwrapperone{
+        flex-direction: column;
+    }
+    div{
+        padding: 20px;
+    }
+    #one img{
+       width: 300px;
+       height: 400px;
+    }
+    #one{
+        font-size: 20px;
+    }
+}
+
+/* section two */
+.divwrappertwo{
+    padding: 100px;
+}
+#two img{
+    width: 300px;
+    padding: 0 20px 0 20px;
+}
+
+@media screen and (max-width:1000px){
+    #logodiv{
+        flex-direction: column;
+    }
+}
+
+/* section three */
+#three{
+    background-color: #CBE4DE;
+}
+.divwrapperthree{
+    padding: 150px;
+}
+.cardH{
+   width: 20%;
+   height: 200px;
+   margin: 20px;
+   padding: 20px;
+   scale: 1;
+  
+}
+.cardH:hover{
+    box-shadow: 2px 5px 3px 1px #0E8388;
+    transition: scale 0.7s ease-out;
+    scale: 1.2;
+}
+#three h5{
+    color: #0E8388;
+}
+
+
+
+/* section three 2.0*/
+.cardL{
+    
+    border-right: solid 2px  #0E8388;
+}
+.stats{
+    
+    font-size: 10px;
+}
+
+@media screen and (max-width:1000px){
+    #cardgroupof5{
+        flex-direction: column;
+    }
+    .divwrapperthree{
+        padding: 0px;
+    }
+    .cardH{
+        width: 40%;
+        margin: 20px;
+        height: 280px;
+    }
+    .charges h1{
+        font-size: 30px;
+    }
+    .about h1{
+        font-size: 35px;
+    }
+}
+
+/* section four */
+
+#four .img2{
+    width: 300px;
+}
+#four{
+    padding-bottom:50px;
+}
+#four h4{
+    padding: 10px;
+    border-bottom: solid 4px #0E8388;
+}
+#four h1{
+    color: #0E8388;
+}
+.rsdiv{
+    position: relative;
+}
+.rs{
+    position: absolute;
+    right: 0;
+}
+@media screen and (max-width:1000px){
+    #wrapersectionfour{
+        flex-direction: column;
+     }
+     #four .img2{
+         display: none;
+     }
+     #four .img1{
+         width: 350px;
+     }
+     #four h4{
+         font-size: 15px;
+     }
+     #four h1{
+         font-size: 30px;
+     }
+     .rs{
+         position: absolute;
+         right: 16px;
+     }
+}
+
+/* footer */
+footer {
+    background-color: #f8f8f8;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+footer div{
+   padding-left: 180px;
+}
+  
+  .footer-col-1,
+  .footer-col-2,
+  .footer-col-3 {
+    width: 30%;
+  }
+  
+  .footer-col-1 h3,
+  .footer-col-2 h3,
+  .footer-col-3 h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-col-1 p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .footer-col-2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-col-2 li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .footer-col-3 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-col-3 li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .footer-col-3 a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer-col-3 a:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width:1000px){
+    footer div{
+        padding: 0px;
+        margin-top: 50px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .footer-col-1,
+    .footer-col-2,
+    .footer-col-3 {
+        width: auto;
+    }
+  }

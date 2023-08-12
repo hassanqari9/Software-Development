@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+
+        <title>index</title>
+        <link rel="slylesheet" href="style.css">
+        <style>
+            body{
+                background-color:tomato;
+            }
+
+        </style>
+    </head>
+    <body>
+        {% if session.name %}
+            You r logged in as {{ session.name }} <a href="/news1">GO TO WEBSITE</a> or <a href="/logout">Logout</a>
+        {% else %}
+            You r not logged in <a href="/login">Log In</a>
+        {% endif %}
+    </body>
+</html>
+
+

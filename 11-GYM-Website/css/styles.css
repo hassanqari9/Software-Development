@@ -1,0 +1,340 @@
+/* nav-bar section */
+nav li{
+    display: inline;
+    padding-left: 45px;
+}
+nav button{
+    display: none;  
+    border: 0;
+    font-size: 45px;
+}
+
+@media screen and (max-width: 1000px){
+    .firstdiv{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%
+    }
+    .seconddiv{
+        margin-top: 20px;
+        display: none;
+    }
+    #navbar{
+        
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+    nav li{
+        display: block;
+        padding: 0;
+        margin-bottom: 35px;
+    }
+    #navh1{
+        margin-bottom: 50px;
+    }
+    #navp{
+        margin-bottom: 50px;
+    }
+    #nav-button {
+        display: block; 
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+
+
+/* first section */
+.inside-card{
+    background-color: rgba(0, 0, 0, 0.52);
+    position: absolute;
+    top:35vh;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1000px){
+    .inside-card{
+        position: relative;
+        top:5vh;
+        
+    }
+    
+}
+
+
+/* second section */
+.plus{
+    border: 0;
+}
+#card4{
+    position: relative;
+    margin: 20px 50px 20px
+}
+#card4 h5{
+    position: absolute;
+    top: 40%;
+    left: 33%;
+}
+#card4 button{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+.fourcardsdiv{
+   margin: 100px 0;
+}
+#secondsection{
+    background-image: url("../images/design.png");
+    background-size: cover;
+    
+}
+
+@media screen and (max-width: 1000px){
+    .card h5{
+       font-size: small;
+    }
+    #card4{
+        margin: 10px 20px;
+    }
+    #secondsection{
+        background-image: none;
+    }
+}
+
+/* third section */
+#thirdsection{
+    background-color: rgb(29, 26, 26);
+    padding: 0;
+}
+#thirdsection img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+.card5{
+    border-radius: 20px;
+    background-color: black;
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+@media screen and (max-width: 1000px){
+    #features{
+        flex-direction: column;
+    }
+}
+
+/* forth section */
+.colordiv1,.colordiv2{
+    height: 40vh;
+}
+#forthsection img{
+    
+    width: 100%;
+    height: 40vh;
+}
+#colorimgdiv{
+    background-image: url("../images/muscle.webp");
+    background-position: center;
+    background-size:cover;
+}
+@media screen and (max-width: 1000px){
+    .colordiv1{
+        height: 30vh;
+    }
+    .colordiv2{
+        height: 20vh;
+    }
+}
+ 
+/* fifth section */
+.card-wraper2{
+    display: flex;
+    position: absolute;
+    transition: left 0.7s ease-in-out;
+    left: 0%;
+
+}
+#fifthsection input{
+    color: white;
+    padding: 5px;
+    border: solid 3px rgba(238, 238, 0, 0.975);
+    width: 30%;
+    background-color: rgb(58, 55, 55);
+}
+#fifthsection p{
+   margin: 20px 0;
+}
+#fifthsection {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carousalH{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    background-color: black;
+    width: 78%;
+    overflow-y: hidden;
+    padding-bottom: 400px;
+    justify-self: center;
+    position: relative;
+   
+}
+.carousalH::-webkit-scrollbar {
+    display: none;
+}
+.cardH{
+    
+    padding: 30px;
+    width: 200px;
+    margin: 30px;
+   
+}
+#fifthsection .sliderbutton{
+    border-radius: 100%;
+    scale: 3;
+    margin: 20px;
+    border: solid 2px white;
+}
+
+.slidercard1{
+    background-image: url(../images/body.jpeg);
+    color: white;
+}
+.slidercard2{
+    background-image: url(../images/gym.jpg);
+    color: white;
+}
+.slidercard3{
+    background-image: url(../images/body3.jpeg);
+    color: white;
+}
+
+@media screen and (max-width:1000px){
+    .sliderbutton{
+        display: none;
+    }
+}
+
+
+/* sixth section */
+#sixthsection{
+    padding: 50px;
+    background-image: url("../images/circle.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#sixthsection img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 100%;
+}
+#sixthsection .cardl{
+    width: 400px;
+    margin: 20px;
+}
+@media screen and (max-width:1000px) {
+    #sixthsection{
+        display: none;
+    }
+    
+}
+
+
+
+/* footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+  }
+footer div{
+   padding-left: 180px;
+}
+  
+  .footer-col-1,
+  .footer-col-2,
+  .footer-col-3 {
+    width: 30%;
+  }
+  
+  .footer-col-1 h3,
+  .footer-col-2 h3,
+  .footer-col-3 h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-col-1 p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .footer-col-2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-col-2 li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .footer-col-3 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-col-3 li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .footer-col-3 a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer-col-3 a:hover {
+    text-decoration: underline;
+  }
+  
+  #footersection{
+    padding: 100px;
+    
+  }
+  .araaf{
+    font-size: 25px;
+  }
+  @media screen and (max-width:1000px){
+    footer div{
+        padding: 0px;
+        margin-top: 50px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .footer-col-1,
+    .footer-col-2,
+    .footer-col-3 {
+        width: auto;
+    }
+  }

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Document</title>
+
+    <!-- .css file link -->
+    <link rel="stylesheet" href="styles2.css">
+
+    <!-- bootstrap -->
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    
+    <h1 id="title">Description</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card1">
+                    <p class="example">Description </p>
+                    <p> Normally attendance could be calculated using this formula </p>
+              
+                    <p class="formula">(Classes Attended / Total Classes Held) * 100</p>
+              
+                    <p>However, students need this value for two purposes</p>
+            
+                    <ul>
+                    <li>to calculate how many days must they attend to get their attendance upto minimum required percentage</li>
+                    <li>to know how many days could be skipped and still not fall below minimum required percentage</li>
+                    </ul>
+                     
+                </div>
+            </div>
+    
+            <div class="col">
+                <div class="card2">
+                    <p class="example">Example </p>
+            
+                    <p>If a student has attended 5 classes out of 10, the attendance would be 50% but a student is usualy more
+                    interested in knowing how many more days must be attended to get the minimum required value set by the
+                    institution. </p>
+            
+                    <p>Assume 75% is the minimum required attendance then to calculate how many more days a studemt must attend, we made
+                    this calculator.</p>
+            
+                    <p>It would be incorrect to evaluate in this manner</p>
+             
+                    <p class="formula">
+            
+                    8 / 10 * 100 = 80% <br>
+            
+                    8 - 5 = 3 days
+             
+                    </p>
+               
+                </div>
+                
+    
+            </div>
+    
+        </div>
+        
+
+    </div>
+
+    <hr style="display: inline-block;">
+    <div class="last">
+        <p> The correct method would be to increment both classes attended and total classes held until 75% is reached. If
+            you do it manually it would look like this: </p>
+            <div class="card3">
+                <p>
+                    (05/10) * 100 = 50.00 <br>
+                    (06/11) * 100 = 54.50 <br>
+                    (07/12) * 100 = 58.30 <br>
+                    (08/13) * 100 = 61.50 <br>
+                    (09/14) * 100 = 64.20 <br>
+                    (10/15) * 100 = 66.66 <br>
+                    (11/16) * 100 = 68.75 <br>
+                    (12/17) * 100 = 70.50 <br>
+                    (13/18) * 100 = 72.20 <br>
+                    (14/19) * 100 = 73.68 <br>
+                    (15/20) * 100 = 75.00 <br>
+                </p>            
+            </div>
+            <p style="margin-bottom: 30px;">thus a student needs to attend 10 classes in order to get 75%.</p>
+    </div>
+    <hr>
+    
+    
+    
+
+
+</body>
+
+</html>

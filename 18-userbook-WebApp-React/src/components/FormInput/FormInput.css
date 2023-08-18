@@ -1,0 +1,36 @@
+.outerDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.formDivs{
+    gap: 1rem;
+    border: 2px solid gray;
+    margin: 60px;
+    padding: 30px 80px;
+    background-color: white;
+    border-radius: 20px;
+}
+.formDiv label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+.formDiv input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 25rem;
+    margin-bottom: 1rem;
+}
+
+button{
+    padding: 0.5rem 2rem;
+    border-radius: 6px;
+    border: none;
+    background-color: darkmagenta;
+    color: white;
+}

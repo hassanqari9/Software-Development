@@ -1,0 +1,11 @@
+:root {
+   --navbarColor: #FFD93D; 
+   --buttonsColor: #FFD93D;
+
+   --navbarTextColor: black;
+   --buttonsTextColor: black;
+
+   --buttonHoverTextColor: black; 
+
+   --formColor: aquamarine;
+}

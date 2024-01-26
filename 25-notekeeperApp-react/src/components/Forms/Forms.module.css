@@ -1,0 +1,55 @@
+.background{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(240, 248, 255, 0.746);
+  z-index: 10;
+}
+.outerdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.display {
+  display: none;
+}
+
+.container{
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  background-color:white;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 10px 30px;
+}
+
+.wrapper{
+  position: relative;
+  z-index: 20;
+
+}
+.close{
+  position: absolute;
+  text-align: end;
+  right: 5px;
+  top: 5px;
+  border: none;
+  background-color: transparent;
+  color: black;
+}
+
+@media (max-width: 960px){
+  .container{
+    width: 80vw;
+
+  }
+}

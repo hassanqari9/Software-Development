@@ -1,0 +1,282 @@
+/* For mobile screens */
+@media (max-width: 980px) {
+  .btn {
+    font-size: 40px;
+    margin: 30px 0;
+    padding: 30px 0;
+    width: 100%;
+    border-radius: 100px;
+  }
+  .h1 {
+    font-size: 87px;
+  }
+  .h2 {
+    font-size: 75px;
+    width: 100%;
+  }
+  #two,
+  #three,
+  #four,
+  #five,
+  #six,
+  #seven,
+  #eight {
+    padding: 0 20px;
+  }
+
+  /* navbar-section(zero) */
+  #zero {
+    height: 140px;
+  }
+  nav {
+    padding: 40px 45px;
+  }
+  .title {
+    margin: 40px 0;
+    font-size: 65px;
+  }
+  .navlinks,
+  #navlink2 {
+    display: none;
+  }
+  .navbutton {
+    display: block;
+    font-size: 40px;
+  }
+
+  /* section(one) */
+  #one .heading0 {
+    display: block;
+    font-size: 130px;
+    margin: 220px 0 0;
+    padding-left: 26px;
+    line-height: 140px;
+  }
+  #one span {
+    font-size: inherit;
+  }
+  #one .heading1,
+  .heading2 {
+    display: none;
+  }
+  #one .img1 {
+    display: block;
+    width: 180px;
+    height: 270px;
+    padding-left: 25px;
+    margin-top: 45px;
+  }
+  #one p {
+    width: auto;
+    margin: 80px 0 0;
+    padding: 45px;
+    line-height: 78px;
+    font-size: 53px;
+  }
+  #one .div2 {
+    padding: 90px 25px;
+  }
+
+  /* section(two) */
+  #two h1 {
+    font-size: 87px;
+  }
+  #two .row {
+    flex-direction: column;
+  }
+  #two .div1 {
+    margin-top: 0;
+    padding: 0;
+    width: auto;
+  }
+  #two .div2 {
+    margin-top: 0;
+    padding: 0;
+    width: auto;
+  }
+  #two p {
+    margin: 0;
+    font-size: 50px;
+    margin-bottom: 140px;
+    line-height: 1.35;
+  }
+  #two h3 {
+    font-size: 42px;
+    padding: 18px 0;
+  }
+
+  /* section(three) */
+  #three .video1 {
+    margin-top: 200px;
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+  }
+  #three .video2 {
+    margin-top: 200px;
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+  }
+  #three .p1 {
+    font-size: 30px;
+    margin: 120px 0;
+    width: auto;
+  }
+  #three .innerdiv {
+    margin: 0;
+  }
+  #three .p2 {
+    font-size: 30px;
+    margin: 120px 0;
+    width: auto;
+  }
+  #three .row {
+    flex-direction: column;
+  }
+
+  /* section(four) */
+  #four .row {
+    overflow-x: scroll;
+  }
+  #four .column {
+    width: auto;
+  }
+  #four img {
+    width: 750px;
+    height: 430px;
+  }
+  #four p {
+    font-size: 45px;
+    width: 100%;
+  }
+
+  /* section(five) */
+  #five .end2 {
+    align-items: flex-start;
+    padding: 0 20px;
+  }
+  #five .row {
+    flex-direction: column;
+    width: 100%;
+  }
+  #five img {
+    margin-top: 200px;
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+  }
+  #five p {
+    font-size: 45px;
+    width: 100%;
+  }
+
+  /* section(six) */
+  #six .row {
+    gap: 0rem;
+    flex-direction: column;
+  }
+  #six .col {
+    width: 100%;
+  }
+  #six img {
+    width: 45rem;
+  }
+
+  /* section(seven) */
+  #seven .outerhr {
+    margin-bottom: 70px;
+  }
+  #seven h1 {
+    font-size: 87px;
+    margin-bottom: 180px;
+  }
+  #seven form {
+    width: 100%;
+  }
+  #seven .row {
+    gap: 0rem;
+  }
+  #seven .row {
+    flex-direction: column;
+  }
+  #seven .innerdiv {
+    width: 100%;
+    margin-bottom: 160px;
+  }
+  #seven .innerdiv2 {
+    margin-bottom: 160px;
+  }
+  #seven .label,
+  .helplabel {
+    top: 15px;
+    font-size: 36px;
+  }
+  #seven input,
+  textarea {
+    border-width: 3px;
+    height: 80px;
+    font-size: 36px;
+  }
+  #seven input:focus + .label {
+    font-size: 30px;
+    transform: translateY(-180%);
+  }
+  #seven textarea:focus + .helplabel {
+    font-size: 30px;
+    transform: translateY(-140%);
+  }
+  #seven .btn {
+    margin-top: 100px;
+    width: 100%;
+  }
+
+  /* section(eight) */
+  #eight .row {
+    flex-direction: column;
+    overflow: hidden;
+  }
+  #eight .innerdiv {
+    margin-top: 70px;
+    height: 120px;
+    margin-bottom: 120px;
+  }
+  #eight input {
+    border-radius: 60px;
+    font-size: 50px;
+    padding: 0 50px;
+  }
+  #eight label {
+    top: 35px;
+    left: 70px;
+    font-size: 35px;
+  }
+  #eight input:focus + label {
+    font-size: 30px;
+  }
+  #eight button {
+    top: 25px;
+    right: 20px;
+    font-size: 60px;
+  }
+  #eight h6 {
+    margin-bottom: 50px;
+  }
+  #eight .div2 a,
+  p,
+  h6,
+  button {
+    font-size: 50px;
+  }
+  #eight .headinglast {
+    margin-top: 90px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  /* navbar-section(zero) */
+  .newnav {
+    display: none;
+  }
+}

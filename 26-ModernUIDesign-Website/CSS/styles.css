@@ -1,0 +1,396 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  transition: all 1s ease-in-out;
+  background-color: var(--light);
+}
+/* navbar-section(zero) */
+#zero {
+  padding: 13px 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  transition: top 1s ease-in-out;
+  background-color: inherit;
+  color: inherit;
+  height: 75px;
+}
+.title {
+  font-size: 27px;
+  /* margin: 0; */
+}
+nav a {
+  /* display: inline; */
+  font-size: 20px;
+  margin: 0 15px;
+  color: inherit;
+  transition: color 1s ease-in;
+}
+nav a:hover {
+  color: var(--textpurple);
+}
+.navbutton {
+  display: none;
+  background-color: transparent;
+  border: none;
+  color: inherit;
+}
+#navlink2 a {
+  text-decoration: underline;
+}
+.newnav a {
+  color: inherit;
+}
+.newnav {
+  position: absolute;
+  z-index: 20;
+  width: 100%;
+  display: none;
+  overflow: hidden;
+  background-color: inherit;
+  transition: all 1s ease-in-out;
+}
+.newnavAnimation {
+  height: 100vh;
+  display: block;
+}
+.newnavAnimation2 {
+  height: 0vh;
+}
+
+/* section(one) */
+#one .heading0 {
+  display: none;
+}
+#one .heading1 {
+  font-weight: 600;
+  font-size: 13vw;
+  white-space: nowrap;
+  margin-bottom: 0;
+  padding: 45px 0 0;
+  animation: moveRt 120000ms linear infinite;
+  line-height: 10vw;
+}
+@keyframes moveRt {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-340%);
+  }
+}
+#one .heading2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 13vw;
+  white-space: nowrap;
+  animation: moveLt 80000ms linear infinite;
+}
+@keyframes moveLt {
+  0% {
+    transform: translateX(-340%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+#one span {
+  font-family: "Source Serif 4", serif;
+  font-size: 14vw;
+  font-weight: 500;
+}
+#one .div1 {
+  overflow: hidden;
+}
+#one .img1 {
+  display: none;
+}
+#one .div1 img {
+  width: 10vw;
+  height: 10vw;
+}
+#one p {
+  margin: 12px 0 0;
+  font-size: 1.7vw;
+  width: 45%;
+  line-height: 2.5vw;
+}
+#one .div2 {
+  margin-top: 70px;
+}
+#one .video1 {
+  width: 100%;
+}
+
+/* section(two) */
+#two .outerhr {
+  margin-top: 180px;
+  margin-bottom: 60px;
+}
+#two .div1 {
+  width: 50%;
+  /* margin: 12px 0; */
+}
+#two .div2 {
+  padding-left: 45px;
+  width: 50%;
+  /* margin: 33px 0 210px; */
+}
+#two h1 {
+  margin-top: 0;
+  font-size: 3.4vw;
+}
+#two p {
+  font-size: 1.55vw;
+  line-height: 1.3;
+  margin-bottom: 55px;
+  margin-top: 0;
+}
+#two .innerhr {
+  border-top: 1px solid rgb(232, 227, 227);
+}
+#two h3 {
+  font-size: 1.6vw;
+  padding: 0;
+  margin: 12px 0;
+}
+
+/* section(three) */
+#three .outerhr {
+  margin-top: 225px;
+}
+#three .video1 {
+  margin-top: 30px;
+  width: 80vw;
+}
+#three .p1 {
+  width: 45%;
+  font-size: 1.3vw;
+  margin-bottom: 80px;
+}
+#three .innerdiv {
+  margin-top: 140px;
+}
+#three .video2 {
+  width: 45vw;
+}
+#three .p2 {
+  width: 75%;
+  font-size: 1.3vw;
+}
+#three a {
+  color: inherit;
+}
+#three a:hover {
+  text-decoration: underline;
+}
+
+/* section(four) */
+#four .outerhr {
+  margin-top: 150px;
+}
+#four .row {
+  gap: 3.3rem;
+  /* margin-bottom: 160px; */
+}
+#four .column {
+  width: 29vw;
+}
+#four img {
+  margin-top: 35px;
+  width: 100%;
+  height: 16.2vw;
+  object-fit: cover;
+}
+#four p {
+  font-size: 1.27vw;
+  width: 77%;
+  margin: 0;
+  line-height: 1.3;
+}
+#four a {
+  font-size: 1.3vw;
+  margin: 35px 0;
+  color: #8875e2;
+}
+#four a:hover {
+  text-decoration: underline;
+}
+
+/* section(five) */
+#five .outerhr {
+  margin-top: 160px;
+}
+#five img {
+  width: 14.5vw;
+  height: 14.5vw;
+  object-fit: cover;
+}
+#five .row {
+  width: 65%;
+  gap: 2rem;
+  margin-bottom: 50px;
+}
+#five p {
+  margin: 0;
+}
+#five button {
+  margin: 130px 0 0;
+}
+
+/* section(six) */
+#six .outerhr {
+  margin-top: 180px;
+}
+#six .row {
+  gap: 1rem;
+}
+#six .col {
+  width: 25vw;
+}
+#six img {
+  width: 70%;
+}
+
+/* section(seven) */
+#seven hr {
+  margin-top: 150px;
+  margin-bottom: 60px;
+}
+#seven h1 {
+  font-size: 58px;
+  margin-bottom: 110px;
+}
+#seven form {
+  width: 1100px;
+}
+#seven .row {
+  gap: 3rem;
+}
+#seven .innerdiv {
+  position: relative;
+  width: 50%;
+  height: 40px;
+  margin-bottom: 45px;
+}
+#seven .innerdiv2 {
+  position: relative;
+  width: 100%;
+  height: 35px;
+  margin-bottom: 45px;
+}
+#seven .innerdiv3 {
+  position: relative;
+  width: 100%;
+  height: 45px;
+  margin-bottom: 45px;
+}
+#seven .label,
+.helplabel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  margin-top: 10px;
+  color: gray;
+  pointer-events: none;
+  transition: transform 0.5s;
+}
+#seven input,
+textarea {
+  font-size: 20px;
+  border-radius: 2px;
+  width: 100%;
+  height: 100%;
+  border-style: none none solid none;
+  border-width: 1px;
+  border-color: var(--light);
+  background-color: inherit;
+  color: inherit;
+}
+#seven input:focus + .label {
+  font-size: small;
+  transform: translateY(-100%);
+}
+#seven textarea:focus + .helplabel {
+  font-size: small;
+  transform: translateY(-80%);
+}
+#seven .btn {
+  margin-top: 10px;
+  width: 160px;
+}
+
+/* section(eight) */
+#eight .outerhr {
+  margin-top: 220px;
+  margin-bottom: 90px;
+}
+#eight h2 {
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+#eight .div1 h6 {
+  margin-bottom: 25px;
+  font-size: 1.2rem;
+}
+#eight .div2 h6 {
+  color: gray;
+  margin-top: 0;
+}
+
+#eight .row {
+  gap: 4rem;
+}
+#eight a,
+p {
+  color: inherit;
+  font-size: 1.2vw;
+  margin: 0 0 15px;
+  padding: 0;
+  transition: color 0.5s ease-in-out;
+}
+#eight a:hover {
+  color: var(--textpurple);
+}
+#eight .innerdiv {
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+#eight label {
+  color: var(--textdark);
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 15;
+  left: 30;
+  pointer-events: none;
+  transition: transform 0.5s;
+}
+#eight input {
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 0 25px;
+  width: 100%;
+  height: 100%;
+}
+#eight input:focus + label {
+  transform: translate(-7%, -70%);
+  font-size: 13px;
+  color: gray;
+}
+#eight button {
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+#eight .headinglast {
+  font-size: 25.5vw;
+  margin-bottom: 0;
+}

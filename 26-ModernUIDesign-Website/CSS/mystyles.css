@@ -1,0 +1,116 @@
+:root {
+  /* background-colors */
+  --light: #fafafa;
+  --darkgrey: #151515;
+  --purple: #a897f8;
+
+  /* text-colors */
+  --textlight: #ffffff;
+  --textdark: #000;
+  --textpurple: #a897f8;
+}
+/* font-family */
+.font1 {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+.font2 {
+  font-family: "Source Serif 4", serif;
+}
+
+/* flexbox */
+.fullcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.start {
+  display: flex;
+  justify-content: flex-start;
+}
+.end {
+  display: flex;
+  justify-content: flex-end;
+}
+.end2 {
+  display: flex;
+  align-items: end;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.space-around {
+  display: flex;
+  justify-content: space-around;
+}
+.space-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* text-alignments */
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+
+/* font-sizes */
+.h1 {
+  font-size: 3.6vw;
+}
+.h2 {
+  font-size: 2.1vw;
+}
+h6 {
+  font-size: 1.2vw;
+}
+.p {
+  font-size: 1.3vw;
+}
+
+/* padding */
+.px-50 {
+  padding: 0 50px;
+}
+
+/* components */
+.btn {
+  font-size: 15px;
+  margin: 30px 0;
+  padding: 15px 0px;
+  width: 190px;
+  border-radius: 100px;
+  border: none;
+  transition: all 1s ease-in-out;
+}
+a {
+  text-decoration: none;
+  color: var(--textdark);
+}
+.outerhr {
+  border-top: 1px solid rgb(94, 91, 91);
+  border-bottom: none;
+}
+.iconbutton {
+  background-color: transparent;
+  border: none;
+}

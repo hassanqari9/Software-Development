@@ -1,0 +1,46 @@
+.h2{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.ul{ 
+    width: 30%;
+    margin: 65px 0 0;
+    padding: 10px;
+    height: 93vh;
+    background-color: #A8DF8E;
+    font-size: larger;
+    text-align: left;
+    
+}
+
+.wrapper {
+    background-image: url('../../images/mosque3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #A8DF8E;
+    overflow-y: scroll;
+    height: 80vh;
+}
+
+.lists{
+    color: black;
+    list-style-type: none;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    font-size: larger;
+    font-family:sans-serif;
+}
+
+.img{
+    width: 425px;
+    height: 300px;
+    margin: 10px 0px;
+}
+
+.li{
+    padding-bottom: 20px;
+}

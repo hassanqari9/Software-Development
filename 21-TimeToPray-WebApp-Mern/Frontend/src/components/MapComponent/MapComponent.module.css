@@ -1,0 +1,27 @@
+.mapWrapper{
+    display: flex;
+}
+
+.map{
+    background-image: url('../../images/WELCOME.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    margin-top: 65px;
+}
+
+.current{
+    border: none;
+    background-color: transparent;
+    font-size: 50px;
+    position: fixed;
+    top: 800px;
+    left: 30px;
+}
+
+.btn{
+    margin: 10rem 7rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}

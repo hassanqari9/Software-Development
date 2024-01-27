@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+/* utility classes */
+.container{
+    width: 100%;
+}
+
+.h1{
+    font-weight: 600;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1em 2.5em;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor:pointer;
+    outline: none;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* nav bar */
+.navbar{
+    font-size: 10px;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.411);
+    position: fixed;
+    width: 100%;
+    background: #f2f2f1;
+    color: black;
+    opacity: 0.85;
+    z-index: 99;
+}
+
+.navbar_container{
+    margin: 0px 0%;
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+   
+}
+
+.navbar_container .items{
+    display: flex;
+    margin: 0 3rem;
+
+}
+
+.navbar_container li{
+    list-style: none;
+    margin-left: 1.6rem;
+}
+
+.navbar_container .items .item{
+    color:black;
+}
+
+.navbar_container .h1{
+    font-size: 2rem;
+    margin: 0 0 0 6rem;
+}
+
+.navbar a{
+    color: black;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+
+}
+
+.navbar a:hover{
+    color: blueviolet;
+}
+
+.input{
+    margin: 0 1rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 7rem;
+}
+
+/* .search{
+    margin-right: 7rem;
+    font-size: 25px;
+} */
+
+

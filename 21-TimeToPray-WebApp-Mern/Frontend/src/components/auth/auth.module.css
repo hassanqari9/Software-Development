@@ -1,0 +1,14 @@
+.showcaseArea{
+    height: 95vh;
+    background: url(../../images/mosqueHome.jpg);
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+}
+
+.wrapper{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
